@@ -11,7 +11,7 @@ Heavy snow seriously degrades the performance of outdoor computer vision systems
 # Code
 The official repository of Depth prior-based stable tensor decomposition for video snow removal.
   ```
-The code will release soon.
+The key package has been provided.
   ```
 
 # Contact
