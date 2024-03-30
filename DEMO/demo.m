@@ -20,11 +20,10 @@ opts.DEBUG = 1;
 
 [n1,n2,n3] = size(In);
 lambda = 1/sqrt(max(n1,n2)*n3);
-[hat,E,err,iter] = trpca_tnn(In,lambda,opts);
+[hat,E,err,iter] = tnn(In,lambda,opts);
  
 hat = max(hat,0);
 hat = min(hat,maxP);
-psnr = PSNR(I,hat,maxP);
 
 imshow(hat/max(hat(:)))
 
