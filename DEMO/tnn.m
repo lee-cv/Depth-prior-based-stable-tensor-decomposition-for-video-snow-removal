@@ -1,4 +1,4 @@
-function [L,S,obj,err,iter] = trpca_tnn(X,lambda,opts)
+function [L,S,obj,err,iter] = tnn(X,lambda,opts)
 
 tol = 1e-6; 
 max_iter = 1000;
